@@ -20,7 +20,7 @@ plt.figure(figsize=(30,10)) # 30 is the width, 10 is the height
 ax = plt.axes() # axes as object of graph
 ax.grid(linewidth=0.4, color='#7d7f7c')
 
-ax.set_facecolor("yellow")
+ax.set_facecolor("red")
 ax.set_xlabel('\nDate',size=25,color='#3c9992')
 ax.set_ylabel('# of Confirmed Cases\n', size=20, color='#3c9992')
 
@@ -31,6 +31,9 @@ ax.plot (X,Y,
     markersize=15,
     markeredgecolor='#3c9992')
 
+
+
+# %%
 
 
 # %%
